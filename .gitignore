@@ -1,0 +1,58 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Byte-compiled / optimized files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# -----------------------
+# Virtual Environment
+# -----------------------
+venv/
+env/
+ENV/
+.venv/
+
+# -----------------------
+# Jupyter Notebooks
+# -----------------------
+.ipynb_checkpoints/
+notebook/.ipynb_checkpoints/
+
+# -----------------------
+# Streamlit Cache
+# -----------------------
+.streamlit/
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# -----------------------
+# Flask / Logs
+# -----------------------
+*.log
+logs/
+*.db
+instance/
+
+# -----------------------
+# Model Files (Optional)
+# If you want to commit models, remove these lines.
+# -----------------------
+model/*.pkl
+model/*.joblib
+model/*.sav
+
+# -----------------------
+# Dataset files
+#
